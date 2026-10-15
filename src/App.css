@@ -1,0 +1,27 @@
+#iPod-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px 7px 0px 7px;
+    background-color: rgb(158, 153, 153);
+    box-shadow: 0px 0px 4px 1px rgb(126, 141, 158);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.93);
+}
+.table-heading, .table-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    text-align: left;
+}
+.table-heading { font-size: 1.1rem; }
+.table-item.active {
+    background: #3d80d7;
+    color: white;
+}
